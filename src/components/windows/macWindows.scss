@@ -1,10 +1,8 @@
 .window {
-    height: 500px;
-    width: 700px;
-
     background-color: #1b1a1a;
     border-radius: 0.75rem;
     overflow: hidden;
+    height: 100%;
 
     color: rgb(200, 195, 195);
 
@@ -42,5 +40,9 @@
                 background-color: rgb(65, 234, 65);
             }
         }
+    }
+
+    .main-content {
+        height: 100%;
     }
 }
