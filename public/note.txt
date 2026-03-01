@@ -1,0 +1,132 @@
+
+/**
+ * @file: profile.config.ts
+ * @author: Chetan Singh
+ * @summary: Full-stack developer — React, Node.js, and building for the web.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  languages: ["C/C++", "JavaScript", "TypeScript", "Python", "Java"],
+  frontend: [
+    "React.js",
+    "Next.js",
+    "Tailwind CSS",
+    "GSAP",
+    "Redux",
+    "Three.js",
+    "Framer Motion",
+    "HTML", "CSS", "SCSS"
+  ],
+  backend: [
+    "Node.js",
+    "Express.js",
+    "Web Sockets",
+    "RestAPI",
+    "RabbitMQ",
+    "Redis",
+  ],
+  database: ["MongoDB", "MySQL", "PostgreSQL"],
+  additional: ["AWS", "Generative AI", "Git", "Figma", "Docker", "Web Scraping"]
+};
+
+// --------------------------------------------------
+// 2. EXPERIENCE LOG (Reverse Chronological)
+// --------------------------------------------------
+
+class ProfessionalHistory {
+
+  /** SDE-1 @ Persist Ventures
+   * @period Jan 2024 - Aug 2025
+   */
+  public async Persist_Ventures(): Promise<Impact> {
+    const role = "SDE - 1";
+    const stack = ["React JS", "Node JS", "Express JS", "MongoDB", "Web Sockets", "GenAI", "GCP"];
+    // Backend for contact management, AI-based recommendations
+    return { role, stack };
+  }
+
+  /** FullStack Web Developer Intern @ MP Police Headquarters
+   * @period Dec 2024 - Feb 2025
+   */
+  public MP_Police_HQ(): void {
+    this.role = "FullStack Web Developer Intern";
+    this.stack = ["React JS", "Node JS", "Express JS", "MongoDB"];
+    // Crime data entry system, automated report generation
+  }
+
+  /** FullStack Web Developer Intern @ BSNL India
+   * @period Oct 2024 - Dec 2024
+   */
+  public BSNL_India(): void {
+    this.role = "FullStack Web Developer Intern";
+    this.stack = ["React JS", "Node JS", "Express JS", "MongoDB", "Schedulers"];
+    // Facility management system, streamlined reporting
+  }
+
+  /** FullStack Web Developer Intern @ SimplySecure
+   * @period Aug 2024 - Oct 2024
+   */
+  public SimplySecure(): void {
+    this.role = "FullStack Web Developer Intern";
+    this.stack = ["React JS", "Node JS", "Express JS", "MongoDB", "GSAP", "Framer Motion", "Nodemailer", "Cloudinary"];
+    // Website revamp, real-time content
+  }
+}
+
+// --------------------------------------------------
+// 3. PROJECTS
+// --------------------------------------------------
+
+const projects = [
+  {
+    name: "Stay Heaven",
+    stack: "ReactJS, MongoDB, Node.js, Express.js, Generative AI, Razorpay",
+    description: "Multi-vendor hotel management platform — payments, auth, GenAI chatbot",
+  },
+  {
+    name: "Browse-Bazaar",
+    stack: "HTML, Tailwind, JavaScript, React, Redux, Strapi, Stripe",
+    description: "E-commerce — product displays, carousels, EmailJS, Stripe",
+  },
+  {
+    name: "macos-portfolio",
+    stack: "React, Vite",
+    description: "This portfolio — macOS-style UI",
+  },
+];
+
+// --------------------------------------------------
+// 4. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+  ["VIT Bhopal University", "Bachelor's in Computer Science (CGPA 7.78, 2022-2026)"],
+  ["City Montessori School, Lucknow", "12th (92.75%), 10th (94%)"]
+]);
+
+// --------------------------------------------------
+// 5. CONTACT
+// --------------------------------------------------
+
+const contact = {
+  email: "chetan738090@gmail.com",
+  phone: "(+91) 8299310028",
+  location: "Lucknow, Uttar Pradesh, India",
+  github: "github.com/chetan8299",
+  linkedin: "linkedin.com/in/chetansingh8299",
+};
+
+export default new ProfessionalHistory();
+
+
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ user --status
+> Status: Open to Opportunities
+> Location: Lucknow, India
+> Loading Assets... [||||||||||] 100%
+> Ready.

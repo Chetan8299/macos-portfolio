@@ -13,11 +13,13 @@ main {
 }
 
 main {
-    background-image: url(/mac-wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-image: url(/mac-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
 }
 body {
-    background-color: #171717;
+  background-color: #171717;
 }
